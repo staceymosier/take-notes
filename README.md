@@ -4,7 +4,7 @@ A react + recoiljs + express + couchbase stack app to manage notes, snippets,
 and bookmarks on knowledge sharing topics.
 
 Start up Couchbase:
-## Couchebase
+## Couchbase
 https://docs.couchbase.com/server/current/getting-started/do-a-quick-install.html
 
 ```bash
