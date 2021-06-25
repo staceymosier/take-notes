@@ -2,11 +2,11 @@ const express = require('express')
 const app = express()
 const port = 5000
 const path = require('path');
-var data = {};
 
 app.get('/', (req, res) => {
     res.send('Hello Worlds!')
 })
+
 
 app.get('/data/sample.json', (req, res) => {
     res.sendFile(path.join(__dirname, '/data', 'sample.json'));
