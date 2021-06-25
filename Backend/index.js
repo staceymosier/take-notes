@@ -1,16 +1,11 @@
-const http = require('http');
+const express = require('express')
+const app = express()
+const port = 5000
 
-const server = http.createServer((req, res) => {
-    const method = req.method;
-    if (method == "POST") {
-        handlePost(req, res);
-    } else {
-        handlePut(req, res);
-    }
-});
+app.get('/', (req, res) => {
+    res.send('Hello World!')
+})
 
-const handlePost = (req, res) => {}
-
-const handlePut = (req, res) => {}
-
-server.listen(5000);
+app.listen(port, () => {
+    console.log(`Example app listening at http://localhost:${port}`)
+})
