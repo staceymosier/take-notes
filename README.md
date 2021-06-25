@@ -10,7 +10,19 @@ https://docs.couchbase.com/server/current/getting-started/do-a-quick-install.htm
 ```bash
 docker run -t --name db -p 8091-8094:8091-8094 -p 11210:11210 couchbase/server-sandbox:6.6.0
 ```
-Then start Express
+
+## Create the bucket
+
+Go to http://localhost:8091/ui/index.html#!/buckets
+Click add bucket
+name it take-notes
+
+## Import the sample data
+From the bucket list, for take-notes, click the Documents link.
+Look for a tab, Import documents.
+Import the sample data from /Backend/data/sample.json
+
+## Then start Express
 ```
 cd /Backend
 node index.js
