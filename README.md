@@ -15,7 +15,7 @@ docker run -t --name db -p 8091-8094:8091-8094 -p 11210:11210 couchbase/server-s
 
 Go to http://localhost:8091/ui/index.html#!/buckets
 Click add bucket
-name it take-notes
+Create a bucket with the name: take-notes
 
 ## Import the sample data
 From the bucket list, for take-notes, click the Documents link.
