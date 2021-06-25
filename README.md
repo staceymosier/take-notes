@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+# Intro
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A react + recoiljs + express + couchbase stack app to manage notes, snippets,
+and bookmarks on knowledge sharing topics.
+
+Start up Couchbase:
+## Couchebase
+https://docs.couchbase.com/server/current/getting-started/do-a-quick-install.html
+
+```bash
+docker run -t --name db -p 8091-8094:8091-8094 -p 11210:11210 couchbase/server-sandbox:6.6.0
+```
+
+Then start up the react app from /App.
 
 ## Available Scripts
 

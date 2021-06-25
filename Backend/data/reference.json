@@ -1,0 +1,13 @@
+{
+    "link_types": [
+        "JIRA",
+        "Confluence",
+        "Google Doc",
+        "Google Sheet",
+        "Google Slide",
+        "External",
+        "The Source",
+        "Gitlab",
+        "Inline - Markdown"
+    ]
+}
